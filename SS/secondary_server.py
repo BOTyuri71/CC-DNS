@@ -147,7 +147,7 @@ class Secondary_server:
 
 
 sp = Secondary_server('10.0.0.2', 86, 100, 'debug',
-                      r'C:\Users\guiar\dns\.ptgg\config\SS.config')
+                      r'/home/core/dns_tp2/dns/.ptgg/config/SS.config')
 
 sp.config_parser()
 print(sp.dns_all)

@@ -5,7 +5,7 @@ localIP = "127.0.0.1"
 localPort = 59
 bufferSize = 1024
 
-sp = ps.primary_server('10.0.0.2', 86, 100, 'debug',
+sp = ps.Primary_server('10.0.0.2', 86, 100, 'debug',
                     r'/home/core/dns_tp2/dns/.ptgg/config/SP.config')
 
 sp.config_parser()
