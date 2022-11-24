@@ -6,7 +6,7 @@ import os
 now = str(dt.now())
 
 
-class secondary_server:
+class Secondary_server:
     def __init__(self, ip, port, ttl, mode, config_path):
         self.ip = str(ip)
         self.port = int(port)
@@ -85,6 +85,7 @@ class secondary_server:
 
 # Config parser
 
+
     def config_parser(self):
 
         with open(self.config_path) as f:
@@ -145,7 +146,8 @@ class secondary_server:
         self.root_parser(self.root_path)
 
 
-sp = secondary_server('10.0.0.2', 86, 100, 'debug',
-                      r'C:\Users\guiar\dns\.ptgg\config\SP.config')
+sp = Secondary_server('10.0.0.2', 86, 100, 'debug',
+                      r'C:\Users\guiar\dns\.ptgg\config\SS.config')
 
 sp.config_parser()
+print(sp.dns_all)
