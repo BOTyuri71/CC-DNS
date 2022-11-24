@@ -1,0 +1,275 @@
+2022-11-23 18:05:47.952174 ST 10.0.0.1 53 0 shy 
+2022-11-23 18:05:47.952174 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 18:05:47.952174 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 18:06:30.539346 ST 10.0.0.1 53 0 shy 
+2022-11-23 18:06:30.539346 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 18:06:30.539346 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 18:07:13.186559 ST 10.0.0.1 53 0 shy 
+2022-11-23 18:07:13.186559 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 18:07:13.186559 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 18:07:13.186559 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 18:07:13.186559 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 18:08:20.567313 ST 10.0.0.1 53 0 shy 
+2022-11-23 18:08:20.567313 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 18:08:20.567313 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 18:10:09.985122 ST 10.0.0.1 53 0 shy 
+2022-11-23 18:10:09.985122 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 18:10:09.985122 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 18:11:09.415106 ST 10.0.0.1 53 0 shy 
+2022-11-23 18:11:09.415106 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 18:11:09.415106 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 18:11:09.415106 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 18:11:09.415106 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 18:14:41.630746 ST 10.0.0.1 53 0 shy 
+2022-11-23 18:14:41.630746 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 18:14:41.630746 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 18:14:41.630746 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 18:14:41.630746 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 18:15:13.124731 ST 10.0.0.1 53 0 shy 
+2022-11-23 18:15:13.124731 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 18:15:13.124731 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 18:15:13.124731 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 18:15:13.124731 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 18:19:11.900116 SP 10.0.0.1 53 0 shy 
+2022-11-23 18:19:11.900116 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SS.config
+2022-11-23 18:19:11.900116 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 18:20:45.380697 ST 10.0.0.1 53 0 shy 
+2022-11-23 18:20:45.380697 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 18:20:45.380697 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 18:20:45.380697 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 18:20:45.380697 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 18:35:30.608443 ST 10.0.0.1 53 0 shy 
+2022-11-23 18:35:30.608443 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 18:35:30.608443 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 18:35:30.608443 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 18:35:30.608443 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 18:35:48.449963 ST 10.0.0.1 53 0 shy 
+2022-11-23 18:35:48.449963 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 18:35:48.449963 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 18:35:48.449963 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 18:35:48.449963 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 18:39:05.755407 ST 10.0.0.1 53 0 shy 
+2022-11-23 18:39:05.755407 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 18:39:05.755407 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 18:39:05.755407 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 18:39:05.755407 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 18:40:03.819093 ST 10.0.0.1 53 0 shy 
+2022-11-23 18:40:03.819093 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 18:40:03.819093 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 18:40:03.819093 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 18:40:03.819093 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:28:39.207645 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:28:39.207645 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:28:39.207645 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:29:11.843233 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:29:11.843233 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:29:11.843233 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:29:11.843233 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:29:11.843233 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:30:20.051557 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:30:20.051557 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:30:20.051557 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:30:20.051557 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:30:20.051557 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:31:06.198579 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:31:06.198579 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:31:06.198579 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:31:06.198579 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:31:06.198579 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:31:42.366981 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:31:42.366981 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:31:42.366981 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:31:42.366981 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:31:42.366981 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:31:47.752572 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:31:47.752572 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:31:47.752572 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:31:47.752572 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:31:47.752572 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:32:09.660008 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:32:09.660008 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:32:09.660008 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:32:09.660008 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:32:09.660008 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:32:35.468902 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:32:35.468902 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:32:35.468902 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:32:35.468902 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:32:35.468902 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:33:04.913424 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:33:04.913424 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:33:04.913424 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:33:04.913424 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:33:04.913424 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:33:26.780158 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:33:26.780158 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:33:26.780158 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:33:26.780158 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:33:26.780158 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:34:08.999376 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:34:08.999376 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:34:08.999376 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:34:08.999376 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:34:08.999376 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:34:27.866493 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:34:27.866493 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:34:27.866493 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:34:27.866493 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:34:27.866493 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:35:06.583864 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:35:06.583864 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:35:06.583864 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:35:06.583864 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:35:06.583864 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:35:39.936174 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:35:39.936174 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:35:39.936174 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:35:39.936174 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:35:39.936174 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:36:18.245318 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:36:18.245318 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:36:18.245318 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:36:18.245318 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:36:18.245318 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:36:29.404941 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:36:29.404941 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:36:29.404941 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:36:29.404941 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:36:29.404941 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:36:41.182832 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:36:41.182832 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:36:41.182832 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:36:41.182832 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:36:41.182832 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:38:16.403812 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:38:16.403812 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:38:16.403812 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:38:16.403812 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:38:16.403812 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:38:38.611768 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:38:38.611768 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:38:38.611768 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:38:38.611768 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:38:38.611768 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:38:56.146622 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:38:56.146622 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:38:56.146622 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:38:56.146622 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:38:56.146622 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:40:22.046501 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:40:22.046501 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:40:22.046501 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:40:22.046501 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:40:22.046501 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:40:35.558572 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:40:35.558572 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:40:35.558572 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:40:35.558572 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:40:35.558572 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 19:46:35.543507 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:46:35.543507 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 19:46:35.543507 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 19:46:35.543507 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 19:46:35.543507 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 20:01:16.880840 SP 10.0.0.1 53 0 shy 
+2022-11-23 20:01:16.880840 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 20:01:16.880840 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 20:01:16.880840 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 20:01:16.880840 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 20:03:13.028159 SP 10.0.0.2 86 0 debug 
+2022-11-23 20:03:13.028159 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 20:03:13.028159 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 20:03:13.028159 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 20:03:13.028159 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 20:03:31.500935 SP 10.0.0.2 86 0 debug 
+2022-11-23 20:03:31.500935 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 20:03:31.500935 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 20:03:31.500935 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 20:03:31.500935 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 20:03:45.280296 SP 10.0.0.2 86 0 debug 
+2022-11-23 20:03:45.280296 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 20:03:45.280296 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 20:03:45.280296 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 20:03:45.280296 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 20:05:06.196052 SS 10.0.0.2 86 0 debug 
+2022-11-23 20:05:06.196052 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 20:05:06.196052 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 20:05:21.952968 SS 10.0.0.2 86 0 debug 
+2022-11-23 20:05:21.952968 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 20:05:21.952968 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 20:05:39.035324 SS 10.0.0.2 86 0 debug 
+2022-11-23 20:05:39.035324 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 20:05:39.035324 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 20:06:07.202032 SS 10.0.0.2 86 0 debug 
+2022-11-23 20:06:07.202032 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 20:06:07.202032 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 20:06:57.596364 SP 10.0.0.2 86 0 debug 
+2022-11-23 20:06:57.596364 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 20:06:57.596364 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 20:06:57.596364 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 20:06:57.596364 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 20:10:18.966240 SP 10.0.0.2 86 0 debug 
+2022-11-23 20:10:18.966240 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 20:10:18.966240 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 20:10:18.966240 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 20:10:18.966240 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 20:11:26.597574 SP 10.0.0.2 86 100 debug 
+2022-11-23 20:11:26.597574 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 20:11:26.597574 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 20:11:26.597574 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 20:11:26.597574 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 20:12:02.384735 SP 10.0.0.2 86 100 debug 
+2022-11-23 20:12:02.384735 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 20:12:02.384735 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 20:12:02.384735 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 20:12:02.384735 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 21:52:12.936519 SP 10.0.0.2 86 100 debug 
+2022-11-23 21:52:12.936519 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 21:52:12.936519 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 21:52:12.936519 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 21:52:12.936519 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 21:52:12.936519 SP 10.0.0.2 86 100 debug 
+2022-11-23 21:52:12.936519 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 21:52:12.936519 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 21:52:12.936519 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 21:52:12.936519 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 21:52:36.915443 SP 10.0.0.2 86 100 debug 
+2022-11-23 21:52:36.915443 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 21:52:36.915443 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 21:52:36.915443 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 21:52:36.915443 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 21:52:36.915443 SP 10.0.0.2 86 100 debug 
+2022-11-23 21:52:36.915443 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 21:52:36.915443 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 21:52:36.915443 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 21:52:36.915443 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 21:54:15.906461 SP 10.0.0.2 86 100 debug 
+2022-11-23 21:54:15.906461 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 21:54:15.906461 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 21:54:15.906461 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 21:54:15.906461 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 21:54:15.906461 SP 10.0.0.2 86 100 debug 
+2022-11-23 21:54:15.906461 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 21:54:15.906461 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 21:54:15.906461 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 21:54:15.906461 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 21:55:25.360010 SP 10.0.0.2 86 100 debug 
+2022-11-23 21:55:25.360010 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 21:55:25.360010 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 21:55:25.360010 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 21:55:25.360010 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 21:55:25.360010 SP 10.0.0.2 86 100 debug 
+2022-11-23 21:55:25.360010 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 21:55:25.360010 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 21:55:25.360010 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 21:55:25.360010 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 23:20:25.773271 SP 10.0.0.2 86 100 debug 
+2022-11-23 23:20:25.773271 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 23:20:25.773271 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 23:20:25.773271 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 23:20:25.773271 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-23 23:20:25.773271 SP 10.0.0.2 86 100 debug 
+2022-11-23 23:20:25.773271 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-23 23:20:25.773271 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-23 23:20:25.773271 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
+2022-11-23 23:20:25.773271 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db

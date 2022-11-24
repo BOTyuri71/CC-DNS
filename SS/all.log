@@ -1,0 +1,15 @@
+2022-11-23 18:19:57.943417 SP 10.0.0.1 53 0 shy 
+2022-11-23 18:19:57.943417 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SS.config
+2022-11-23 18:19:57.943417 EV @ log-file-create C:\Users\guiar\dns\SS\all.log
+2022-11-23 19:23:15.890546 SP 10.0.0.1 53 0 shy 
+2022-11-23 19:23:15.890546 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SS.config
+2022-11-23 19:23:15.890546 EV @ log-file-create C:\Users\guiar\dns\SS\all.log
+2022-11-23 19:25:06.786427 SS 10.0.0.1 53 0 shy 
+2022-11-23 19:25:06.786427 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SS.config
+2022-11-23 19:25:06.786427 EV @ log-file-create C:\Users\guiar\dns\SS\all.log
+2022-11-23 19:53:36.937936 SS 10.0.0.1 53 0 shy 
+2022-11-23 19:53:36.937936 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SS.config
+2022-11-23 19:53:36.937936 EV @ log-file-create C:\Users\guiar\dns\SS\all.log
+2022-11-23 19:53:52.769304 SS 10.0.0.1 53 0 shy 
+2022-11-23 19:53:52.769304 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SS.config
+2022-11-23 19:53:52.769304 EV @ log-file-create C:\Users\guiar\dns\SS\all.log
