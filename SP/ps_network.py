@@ -6,7 +6,7 @@ localPort = 59
 bufferSize = 1024
 
 sp = ps.primary_server('10.0.0.2', 86, 100, 'debug',
-                       r'C:\Users\guiar\dns\.ptgg\config\SP.config')
+                    r'/home/core/dns_tp2/dns/.ptgg/config/SP.config')
 
 sp.config_parser()
 

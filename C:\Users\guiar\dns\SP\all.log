@@ -1,0 +1,12 @@
+2022-11-24 15:36:22.967222 SP 10.0.0.2 86 100 debug 
+2022-11-24 15:36:22.967222 EV @ conf-file-read /home/core/dns_tp2/dns/.ptgg/config/SP.config
+2022-11-24 15:36:22.967222 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-24 15:36:35.294300 SP 10.0.0.2 86 100 debug 
+2022-11-24 15:36:35.294300 EV @ conf-file-read /home/core/dns_tp2/dns/.ptgg/config/SP.config
+2022-11-24 15:36:35.294300 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-24 15:37:38.621215 SP 10.0.0.2 86 100 debug 
+2022-11-24 15:37:38.621215 EV @ conf-file-read /home/core/dns_tp2/dns/.ptgg/config/SP.config
+2022-11-24 15:37:38.621215 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-24 15:37:55.518352 SP 10.0.0.2 86 100 debug 
+2022-11-24 15:37:55.518352 EV @ conf-file-read /home/core/dns_tp2/dns/.ptgg/config/SP.config
+2022-11-24 15:37:55.518352 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
