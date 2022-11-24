@@ -6,7 +6,7 @@ import os
 now = str(dt.now())
 
 
-class dns_resolver:
+class Dns_resolver:
     def __init__(self, ip, port, ttl, mode, config_path):
         self.ip = str(ip)
         self.port = int(port)

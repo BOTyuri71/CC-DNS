@@ -6,7 +6,7 @@ import os
 now = str(dt.now())
 
 
-class primary_server:
+class Primary_server:
     def __init__(self, ip, port, ttl, mode, config_path):
         self.ip = str(ip)
         self.port = int(port)
@@ -233,7 +233,7 @@ class primary_server:
                     self.db_parser(val)
 
 
-sp = primary_server('10.0.0.2', 86, 100, 'debug',
+sp = Primary_server('10.0.0.2', 86, 100, 'debug',
                     r'C:\Users\guiar\dns\.ptgg\config\SP.config')
 
 sp.config_parser()

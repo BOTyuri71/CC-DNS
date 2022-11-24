@@ -1,62 +1,79 @@
 import socket
 import argparse
-
-ip_destino = ''
-name = ''
-type_of_value = ''
-recursive_mode = False
+import struct
+import random
 
 
-###################################################################
+class Client:
 
-# Terminal Parser
+    ###################################################################
+    # Input variables
 
-def terminal_parser(input):
+    ip_destino = ''
+    name = ''
+    type_of_value = ''
+    recursive_mode = False
 
-    data = input.split(' ')
+    ###################################################################
+    # DNS message variables
 
-    if data[0] == 'dnscl' and len(data) > 3:
-        ip_destino = data[1]
-        name = data[2]
-        type_of_value = data[3]
+    pdu = []
+    header = {}
+    data = {}
+    query_info_fields = {}
 
-        if (len(data) > 4):
-            if (data[4] == 'R'):
-                recursive_mode = True
-    else:
-        print('Formato incorreto')
+    ###################################################################
 
-    print(ip_destino)
-    print(name)
-    print(type_of_value)
+    # Terminal Parser
+
+    def terminal_parser(self, input):
+
+        data = input.split(' ')
+
+        if data[0] == 'dnscl' and len(data) > 3:
+            self.ip_destino = data[1]
+            self.name = data[2]
+            self.type_of_value = data[3]
+
+            if (len(data) > 4):
+                if (data[4] == 'R'):
+                    self.recursive_mode = True
+        else:
+            print('Formato incorreto')
 
 #################################################################
 
+    def header_builder(self):
+        self.header.update({'MESSAGE_ID': random.randint(1, 65535)})
+        if self.recursive_mode == True:
+            self.header.update({'FLAGS': 'Q+R'})
+        elif self.recursive_mode == False:
+            self.header.update({'FLAGS': 'Q'})
+        self.header.update({'RESPONSE-CODE': 0})
+        self.header.update({'N-VALUES': 0})
+        self.header.update({'N-AUTHORITIES': 0})
+        self.header.update({'N-EXTRA-VALUES': 0})
 
+    def query_info_builder(self):
+        self.query_info_fields.update({'NAME': self.name})
+        self.query_info_fields.update({'TYPE OF VALUE': self.type_of_value})
+
+    def data_builder(self):
+        self.query_info_builder()
+        self.data.update({'RESPONSE VALUES': {}})
+        self.data.update({'AUTHORITIES VALUES': {}})
+        self.data.update({'EXTRA VALUES': {}})
+
+    def pdu_builder(self):
+        self.header_builder()
+        self.data_builder()
+
+        self.pdu.append(self.header)
+        self.pdu.append(self.data)
+        print(self.pdu)
+
+
+cl = Client()
 terminal = str(input())
-terminal_parser(terminal)
-
-msgFromClient = "Hello UDP Server"
-
-bytesToSend = str.encode(msgFromClient)
-
-serverAddressPort = ("127.0.0.1", 59)
-
-bufferSize = 1024
-
-
-# Create a UDP socket at client side
-
-UDPClientSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
-
-
-# Send to server using created UDP socket
-
-UDPClientSocket.sendto(bytesToSend, serverAddressPort)
-
-
-msgFromServer = UDPClientSocket.recvfrom(bufferSize)
-
-another_str = str(msgFromServer)
-another_str = another_str.replace('\\\\\\', '\\')
-another_str = another_str.replace('b"', '')
+cl.terminal_parser(terminal)
+cl.pdu_builder()

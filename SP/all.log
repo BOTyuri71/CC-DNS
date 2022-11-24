@@ -273,3 +273,9 @@
 2022-11-23 23:20:25.773271 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
 2022-11-23 23:20:25.773271 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\new-ptgg.db
 2022-11-23 23:20:25.773271 EV @ db-file-read C:\Users\guiar\dns\.ptgg\data\another-ptgg.db
+2022-11-24 02:11:56.903470 SS 10.0.0.2 86 100 debug 
+2022-11-24 02:11:56.903470 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-24 02:11:56.903470 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
+2022-11-24 02:12:16.190203 SS 10.0.0.2 86 100 debug 
+2022-11-24 02:12:16.190203 EV @ conf-file-read C:\Users\guiar\dns\.ptgg\config\SP.config
+2022-11-24 02:12:16.190203 EV @ log-file-create C:\Users\guiar\dns\SP\all.log
