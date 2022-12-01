@@ -16,29 +16,31 @@ class Secondary_server:
 
 #############################################################################################
 
-# Config variables
+# Config info
 
         self.config_read = []
         self.config_parsed = []
-        self.dd_ip = ''
+
         self.all_log_path = ''
         self.root_path = ''
         self.dns_all = {}
 
 #############################################################################################
 
-# Root variables
+# Root info
 
         self.root_read = []
         self.root_parsed = []
+
         self.root_all = {}
 
 #############################################################################################
 
-# Data variables
+# Data info
 
         self.db_read = []
         self.db_parsed = []
+
         self.default = ''
         self.db_domain = {}
         self.db_all = {}
@@ -82,7 +84,6 @@ class Secondary_server:
 
 
 ################################################################################################
-
 # Config parser
 
 
@@ -126,7 +127,7 @@ class Secondary_server:
                 self.dns_all[list[0]][list[1]].append(list[2])
 
             if list[1] == 'DD':
-                self.default_ip = list[2]
+                self.dns_all[list[0]].update({list[1]: list[2]})
 
             if list[0] == 'all' and list[1] == 'LG':
                 self.all_log_path = list[2]
@@ -144,10 +145,16 @@ class Secondary_server:
         f.close()
 
         self.root_parser(self.root_path)
+        for new_s, new_val in self.dns_all.items():
+            for key, val in new_val.items():
+                if key == 'DB':
+                    self.db_parser(val)
 
+        print(self.root_path)
+        print(self.all_log_path)
+        print(self.dns_all)            
 
-sp = Secondary_server('10.0.0.2', 86, 100, 'debug',
-                      r'/home/core/dns_tp2/dns/.ptgg/config/SS.config')
+ss = Secondary_server('10.0.0.2', 86, 100, 'debug',
+                    r'/home/core/dns_tp2/dns/.ptgg/config/SS.config')
 
-sp.config_parser()
-print(sp.dns_all)
+ss.config_parser()

@@ -20,7 +20,7 @@ class Primary_server:
 
         self.config_read = []
         self.config_parsed = []
-        self.dd_ip = ''
+
         self.all_log_path = ''
         self.root_path = ''
         self.dns_all = {}
@@ -31,6 +31,7 @@ class Primary_server:
 
         self.root_read = []
         self.root_parsed = []
+
         self.root_all = {}
 
 #############################################################################################
@@ -39,6 +40,7 @@ class Primary_server:
 
         self.db_read = []
         self.db_parsed = []
+
         self.default = ''
         self.db_domain = {}
         self.db_all = {}
@@ -209,7 +211,7 @@ class Primary_server:
                 self.dns_all[list[0]][list[1]].append(list[2])
 
             if list[1] == 'DD':
-                self.default_ip = list[2]
+                self.dns_all[list[0]].update({list[1]: list[2]})
 
             if list[0] == 'all' and list[1] == 'LG':
                 self.all_log_path = list[2]
@@ -232,7 +234,12 @@ class Primary_server:
                 if key == 'DB':
                     self.db_parser(val)
 
+        print(self.root_path)
+        print(self.all_log_path)
+        print(self.dns_all)
+
+
 sp = Primary_server('10.0.0.2', 86, 100, 'debug',
-                    r'/home/core/dns_tp2/dns/.ptgg/config/SP.config')
+                    r'/home/core/dns_tp2/dns/.ptgg/config/SS.config')
 
 sp.config_parser()

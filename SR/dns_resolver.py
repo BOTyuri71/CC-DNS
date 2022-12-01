@@ -6,7 +6,7 @@ import os
 now = str(dt.now())
 
 
-class Dns_resolver:
+class Resolve_server:
     def __init__(self, ip, port, ttl, mode, config_path):
         self.ip = str(ip)
         self.port = int(port)
@@ -16,29 +16,31 @@ class Dns_resolver:
 
 #############################################################################################
 
-# Config variables
+# Config info
 
         self.config_read = []
         self.config_parsed = []
-        self.dd_ip = ''
+
         self.all_log_path = ''
         self.root_path = ''
         self.dns_all = {}
 
 #############################################################################################
 
-# Root variables
+# Root info
 
         self.root_read = []
         self.root_parsed = []
+
         self.root_all = {}
 
 #############################################################################################
 
-# Data variables
+# Data info
 
         self.db_read = []
         self.db_parsed = []
+
         self.default = ''
         self.db_domain = {}
         self.db_all = {}
@@ -82,7 +84,6 @@ class Dns_resolver:
 
 
 ################################################################################################
-
 # Config parser
 
 
@@ -126,7 +127,7 @@ class Dns_resolver:
                 self.dns_all[list[0]][list[1]].append(list[2])
 
             if list[1] == 'DD':
-                self.default_ip = list[2]
+                self.dns_all[list[0]].update({list[1]: list[2]})
 
             if list[0] == 'all' and list[1] == 'LG':
                 self.all_log_path = list[2]
@@ -144,3 +145,16 @@ class Dns_resolver:
         f.close()
 
         self.root_parser(self.root_path)
+        for new_s, new_val in self.dns_all.items():
+            for key, val in new_val.items():
+                if key == 'DB':
+                    self.db_parser(val)
+
+        print(self.root_path)
+        print(self.all_log_path)
+        print(self.dns_all)            
+
+rs = Resolve_server('10.0.0.2', 86, 100, 'debug',
+                    r'/home/core/dns_tp2/dns/.ptgg/config/SR.config')
+
+rs.config_parser()

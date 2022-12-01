@@ -1,4 +1,35 @@
 2022-11-24 15:38:38.499644 SP 10.0.0.2 86 100 debug 
 2022-11-24 15:38:38.499644 EV @ conf-file-read /home/core/dns_tp2/dns/.ptgg/config/SP.config
 2022-11-24 15:38:38.499644 EV @ log-file-create /home/core/dns_tp2/dns/SP/all.log
-2022-11-24 15:38:38.499644 EV @ db-file-read /home/core/dns_tp2/dns/.ptgg/data/new-ptgg.db
+2022-11-24 15:38:38.499644 EV @ db-file-read /home/core/dns_tp2/dns/.ptgg/data/new-ptgg.db2022-12-01 22:14:11.512097 SP 10.0.0.2 86 100 debug 
+2022-12-01 22:14:11.512097 EV @ conf-file-read /home/core/dns_tp2/dns/.ptgg/config/SP.config
+2022-12-01 22:14:11.512097 EV @ log-file-create /home/core/dns_tp2/dns/SP/all.log
+2022-12-01 22:14:11.512097 EV @ db-file-read /home/core/dns_tp2/dns/.ptgg/data/new-ptgg.db
+2022-12-01 22:15:27.259924 SP 10.0.0.2 86 100 debug 
+2022-12-01 22:15:27.259924 EV @ conf-file-read /home/core/dns_tp2/dns/.ptgg/config/SP.config
+2022-12-01 22:15:27.259924 EV @ log-file-create /home/core/dns_tp2/dns/SP/all.log
+2022-12-01 22:15:27.259924 EV @ db-file-read /home/core/dns_tp2/dns/.ptgg/data/new-ptgg.db
+2022-12-01 22:15:51.392294 SP 10.0.0.2 86 100 debug 
+2022-12-01 22:15:51.392294 EV @ conf-file-read /home/core/dns_tp2/dns/.ptgg/config/SP.config
+2022-12-01 22:15:51.392294 EV @ log-file-create /home/core/dns_tp2/dns/SP/all.log
+2022-12-01 22:15:51.392294 EV @ db-file-read /home/core/dns_tp2/dns/.ptgg/data/new-ptgg.db
+2022-12-01 22:17:53.136454 SP 10.0.0.2 86 100 debug 
+2022-12-01 22:17:53.136454 EV @ conf-file-read /home/core/dns_tp2/dns/.ptgg/config/SP.config
+2022-12-01 22:17:53.136454 EV @ log-file-create /home/core/dns_tp2/dns/SP/all.log
+2022-12-01 22:17:53.136454 EV @ db-file-read /home/core/dns_tp2/dns/.ptgg/data/new-ptgg.db
+2022-12-01 22:21:10.467483 SP 10.0.0.2 86 100 debug 
+2022-12-01 22:21:10.467483 EV @ conf-file-read /home/core/dns_tp2/dns/.ptgg/config/SP.config
+2022-12-01 22:21:10.467483 EV @ log-file-create /home/core/dns_tp2/dns/SP/all.log
+2022-12-01 22:21:10.467483 EV @ db-file-read /home/core/dns_tp2/dns/.ptgg/data/new-ptgg.db
+2022-12-01 22:22:25.151942 SP 10.0.0.2 86 100 debug 
+2022-12-01 22:22:25.151942 EV @ conf-file-read /home/core/dns_tp2/dns/.ptgg/config/SP.config
+2022-12-01 22:22:25.151942 EV @ log-file-create /home/core/dns_tp2/dns/SP/all.log
+2022-12-01 22:22:25.151942 EV @ db-file-read /home/core/dns_tp2/dns/.ptgg/data/new-ptgg.db
+2022-12-01 22:22:52.321353 SP 10.0.0.2 86 100 debug 
+2022-12-01 22:22:52.321353 EV @ conf-file-read /home/core/dns_tp2/dns/.ptgg/config/SP.config
+2022-12-01 22:22:52.321353 EV @ log-file-create /home/core/dns_tp2/dns/SP/all.log
+2022-12-01 22:22:52.321353 EV @ db-file-read /home/core/dns_tp2/dns/.ptgg/data/new-ptgg.db
+2022-12-01 23:09:17.425644 SP 10.0.0.2 86 100 debug 
+2022-12-01 23:09:17.425644 EV @ conf-file-read /home/core/dns_tp2/dns/.ptgg/config/SP.config
+2022-12-01 23:09:17.425644 EV @ log-file-create /home/core/dns_tp2/dns/SP/all.log
+2022-12-01 23:09:17.425644 EV @ db-file-read /home/core/dns_tp2/dns/.ptgg/data/new-ptgg.db
