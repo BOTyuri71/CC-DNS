@@ -7,9 +7,9 @@ cl.terminal_parser(terminal)
 
 msgFromClient = str(cl.pdu_to_string())
 
-bytesToSend = str.encode(msgFromServer)
+bytesToSend = str.encode(msgFromClient)
 
-localIP = '10.0.0.2'
+localIP = '10.1.1.1'
 localPort = 53
 bufferSize = 1024
 
