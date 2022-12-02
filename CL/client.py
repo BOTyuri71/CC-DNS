@@ -9,7 +9,7 @@ class Client:
     ###################################################################
     # Input variables
 
-    ip_destino = ''
+    ip_destino = []
     name = ''
     type_of_value = ''
     recursive_mode = False
@@ -47,7 +47,8 @@ class Client:
         data = input.split(' ')
 
         if data[0] == 'dnscl' and len(data) > 3:
-            self.ip_destino = data[1]
+            temp_ip = data[1].split(':')
+            self.ip_destino = temp_ip
             self.name = data[2]
             self.type_of_value = data[3]
 
