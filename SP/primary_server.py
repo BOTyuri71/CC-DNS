@@ -240,6 +240,6 @@ class Primary_server:
 
 
 sp = Primary_server('10.0.0.2', 86, 100, 'debug',
-                    r'/home/core/dns_tp2/dns/.ptgg/config/SS.config')
+                    r'/home/core/DNS/dns/.ptgg/config/SP.config')
 
 sp.config_parser()
