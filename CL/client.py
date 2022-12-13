@@ -108,7 +108,3 @@ class Client:
         print(self.qpdu_str)
 
 
-cl = Client()
-terminal = str(input())
-cl.terminal_parser(terminal)
-cl.pdu_to_string()

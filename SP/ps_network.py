@@ -1,16 +1,17 @@
 import socket
 import primary_server as ps
+import re
 
-localIP = "127.0.0.1"
-localPort = 59
+localIP = "10.2.2.2"
+localPort = 53
 bufferSize = 1024
 
-sp = ps.Primary_server('10.0.0.2', 86, 100, 'debug',
-                    r'/home/core/dns_tp2/dns/.ptgg/config/SP.config')
+sp = ps.Primary_server('10.2.2.2', 86, 100, 'debug',
+                    r'/home/core/DNS/dns/.ptgg/config/SP.config')
 
 sp.config_parser()
 
-msgFromServer = str(sp.dns_all)
+msgFromServer = str('hello')
 
 bytesToSend = str.encode(msgFromServer)
 
@@ -39,10 +40,13 @@ while (True):
     address = bytesAddressPair[1]
 
     clientMsg = "Message from Client: {}".format(message)
-    print(message)
+
     clientIP = "Client IP Address:{}".format(address)
 
-    print(clientMsg)
+    msg = re.sub("b", "", clientMsg)
+
+    print(msg)
+
     print(clientIP)
 
     # Sending a reply to client
