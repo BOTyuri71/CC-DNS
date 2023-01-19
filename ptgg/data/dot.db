@@ -1,0 +1,10 @@
+# DNS database file for domain .
+@ DEFAULT . 
+TTL DEFAULT 86400 
+@ NS ns1.ptgg. TTL 
+@ NS ns2.ggpt. TTL 
+ns1 A 10.0.1.1 TTL 
+ns2 A 10.0.1.2 TTL 
+www A 193.136.130.80 TTL 200 
+www A 193.136.130.81 TTL 200 
+ftp A 193.136.130.20 TTL

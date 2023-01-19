@@ -85,10 +85,6 @@ class Client:
         self.header_builder()
         self.data_builder()
 
-        print(self.query_header)
-        print(self.query_info_fields)
-        print(self.query_data)
-
     #################################################################
 
     def pdu_to_string(self):
@@ -104,7 +100,3 @@ class Client:
             self.query_info_fields['NAME'] + ',' + self.query_info_fields['TYPE OF VALUE'])
 
         self.qpdu_str = self.qheader_str + ';' + self.qdata_str + ';'
-
-        print(self.qpdu_str)
-
-

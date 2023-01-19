@@ -2,6 +2,7 @@ from datetime import datetime as dt
 import time
 import re
 import os
+import socket
 
 now = str(dt.now())
 
@@ -42,7 +43,8 @@ class Secondary_server:
         self.db_parsed = []
 
         self.default = ''
-        self.db_domain = {}
+        self.db_info = ''
+        self.db_domain = []
         self.db_all = {}
 
 ##############################################################################################
@@ -74,7 +76,7 @@ class Secondary_server:
                 if i == 'ST':
                     temp.remove(i)
 
-        self.root_parsed.append(temp)
+            self.root_parsed.append(temp)
 
         for list in self.root_parsed:
 
@@ -152,9 +154,41 @@ class Secondary_server:
 
         print(self.root_path)
         print(self.all_log_path)
-        print(self.dns_all)            
+        print(self.dns_all)
+
+################################################################################################
+# Zone transfer
+
+    def remove_end_spaces(self, string):
+        return "".join(string.rstrip())
+
+    def zone_transfer(self, domain):
+
+        server_info = self.dns_all.get(domain).get('SP')[0].split(':')
+
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as tcp_socket:
+            tcp_socket.connect((server_info[0], int(server_info[1])))
+            tcp_socket.send(domain.encode())
+            print(tcp_socket.recv(1024).decode().replace('b', ''))
+            accept = input()
+            tcp_socket.send(accept.encode())
+
+            self.db_info = tcp_socket.recv(1024).decode()
+            db_domain_temp = self.db_info.split('z ')
+
+            while ('' in db_domain_temp):
+                db_domain_temp.remove('')
+
+            for value in db_domain_temp:
+                value = self.remove_end_spaces(value)
+                self.db_domain.append(re.sub(r'^.*: ', '', value))
+
+            self.db_all.update({domain: self.db_domain})
+            print(self.db_all)
+
 
 ss = Secondary_server('10.0.0.2', 86, 100, 'debug',
-                    r'/home/core/dns_tp2/dns/.ptgg/config/SS.config')
+                      r'/home/core/DNS/dns/.ptgg/config/SS.config')
 
 ss.config_parser()
+ss.zone_transfer('new.ptgg.')

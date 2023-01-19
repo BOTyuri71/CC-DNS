@@ -1,0 +1,26 @@
+# DNS database file for domain .ptgg.
+@ DEFAULT .ptgg. 
+TTL DEFAULT 86400 
+@ SOASP ns1.ptgg. TTL 
+@ SOAADMIN ad\.dns\.admin@ptgg. TTL 
+@ SOASERIAL 0119102022 TTL 
+@ SOAREFRESH 14400 TTL 
+@ SOARETRY 3600 TTL 
+@ SOAEXPIRE 604800 TTL 
+@ NS ns1.ptgg. TTL 
+@ NS ns2.ptgg. TTL 
+@ NS ns3.ptgg. TTL 
+Smaller.@ NS sp.smaller.ptgg. 
+@ MX mx1.ptgg. TTL 10 
+@ MX mx2.ptgg. TTL 20 
+ns1 A 10.0.1.1 TTL 
+ns2 A 10.0.1.2 TTL 
+ns3 A 10.0.1.3 TTL 
+sp.smaller A 10.0.1.4 TTL 
+mx1 A 10.0.1.5 TTL 
+mx2 A 10.0.1.6 TTL 
+sp CNAME ns1 TTL 
+ss1 CNAME ns2 TTL 
+ss2 CNAME ns3 TTL 
+mail1 CNAME mx1 TTL 
+mail2 CNAME mx2 TTL

@@ -1,0 +1,26 @@
+# DNS database file for domain .ggpt.
+@ DEFAULT .ggpt. 
+TTL DEFAULT 86400 
+@ SOASP ns1.ggpt. TTL 
+@ SOAADMIN ad\.dns\.admin@ggpt. TTL 
+@ SOASERIAL 0119102022 TTL 
+@ SOAREFRESH 14400 TTL 
+@ SOARETRY 3600 TTL 
+@ SOAEXPIRE 604800 TTL 
+@ NS ns1.ggpt. TTL 
+@ NS ns2.ggpt. TTL 
+@ NS ns3.ggpt. TTL 
+Smaller.@ NS sp.smaller.ggpt. 
+@ MX mx1.ggpt. TTL 10 
+@ MX mx2.ggpt. TTL 20 
+ns1 A 10.1.1.1 TTL 
+ns2 A 10.1.1.2 TTL 
+ns3 A 10.1.1.3 TTL 
+sp.smaller A 10.1.1.4 TTL 
+mx1 A 10.1.1.5 TTL 
+mx2 A 10.1.1.6 TTL 
+sp CNAME ns1 TTL 
+ss1 CNAME ns2 TTL 
+ss2 CNAME ns3 TTL 
+mail1 CNAME mx1 TTL 
+mail2 CNAME mx2 TTL

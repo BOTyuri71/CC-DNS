@@ -1,54 +1,110 @@
 import socket
-import primary_server as ps
+import primary_server as PS
 import re
+import threading
 
-localIP = "10.2.2.2"
-localPort = 53
-bufferSize = 1024
+# Inicalize SP server
 
-sp = ps.Primary_server('10.2.2.2', 86, 100, 'debug',
-                    r'/home/core/DNS/dns/.ptgg/config/SP.config')
-
+sp = PS.Primary_server('127.0.0.1', 53, 100, 'debug',
+                       r'C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SP.config')
 sp.config_parser()
 
-msgFromServer = str('hello')
-
-bytesToSend = str.encode(msgFromServer)
+localIP = sp.ip
+portUDP = sp.port
+portTCP = 65432
+bufferSize = 1024
 
 
 # Create a datagram socket
 
-UDPServerSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
-
+sockUDP = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+sockTCP = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Bind to address and ip
 
-UDPServerSocket.bind((localIP, localPort))
+sockUDP.bind((localIP, portUDP))
+sockTCP.bind((localIP, portTCP))
+sockTCP.listen(20)
+
+# Create the logic for the sockets
 
 
-print("UDP server up and listening")
+def udp_listen(conn):
+    while True:
+
+        bytesAddressPair = conn.recvfrom(bufferSize)
+
+        message = bytesAddressPair[0]
+        address = bytesAddressPair[1]
+
+        clientMsg = "{}".format(message)
+        clientIP = "Client IP Address:{}".format(address)
+
+        print(clientMsg)
+
+        query = re.sub("b", "", clientMsg)
+        query = re.sub("'", "", query)
+
+        sp.pdu_temp_received = query.split(';')
+
+        while '' in sp.pdu_temp_received:
+            sp.pdu_temp_received.remove('')
+
+        sp.pdu_received.clear()
+
+        for line in sp.pdu_temp_received:
+            temp2 = line.split(',')
+            sp.pdu_received.append(temp2)
+
+        print(sp.pdu_received)
+
+        if (len(sp.pdu_received) > 1):
+            sp.query_response(sp.pdu_received[1][0], address, conn)
 
 
-# Listen for incoming datagrams
+def tcp_listen(sock):
+    conn, addr = sock.accept()
+    print(f"Connected to Secondary Server {addr}")
+    try:
+        while True:
+            data = conn.recv(1024)
+            domain = data.decode().replace('b', '')
+            print("domain: " + domain)
 
-while (True):
+            sp.zone_transfer(domain)
+            entries_to_send = "entries: " + str(sp.entries)
+            conn.sendall(entries_to_send.encode())
+            accept = conn.recv(1024).decode().replace('b', '')
 
-    bytesAddressPair = UDPServerSocket.recvfrom(bufferSize)
+            if (accept == 'yes'):
+                counter = 1
+                for value in sp.db_zone:
+                    to_send = 'z ' + str(counter) + '/' + \
+                        str(sp.entries) + ': ' + str(value)
+                    conn.sendall(to_send.encode())
+                    counter = counter+1
 
-    message = bytesAddressPair[0]
+            break
+            if len(data) == 0:
+                break
+            print("recv:", data)
+    except Exception:
+        pass
+    try:
+        conn.close()
+        print(f"Connection closed to Secondary Server {addr}")
+    except Exception:
+        pass
 
-    address = bytesAddressPair[1]
 
-    clientMsg = "Message from Client: {}".format(message)
+# Create the listen threads
+t1 = threading.Thread(target=tcp_listen, args=(sockTCP,))
+t2 = threading.Thread(target=udp_listen, args=(sockUDP,))
 
-    clientIP = "Client IP Address:{}".format(address)
+print("Waiting for connections...")
 
-    msg = re.sub("b", "", clientMsg)
+t1.start()
+t2.start()
 
-    print(msg)
-
-    print(clientIP)
-
-    # Sending a reply to client
-
-    UDPServerSocket.sendto(bytesToSend, address)
+t1.join()
+t2.join()

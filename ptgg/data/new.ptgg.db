@@ -2,7 +2,7 @@
 @ DEFAULT new.ptgg. 
 TTL DEFAULT 86400 
 @ SOASP ns1.new.ptgg. TTL 
-@ SOAADMIN ola\.dns\.admin@new.ptgg. TTL 
+@ SOAADMIN ad\.dns\.admin@new.ptgg. TTL 
 @ SOASERIAL 0117102022 TTL 
 @ SOAREFRESH 14400 TTL 
 @ SOARETRY 3600 TTL 
@@ -13,14 +13,12 @@ TTL DEFAULT 86400
 Smaller.@ NS sp.smaller.new.ptgg. 
 @ MX mx1.vazio.com TTL 10 
 @ MX mx2.vazio.com TTL 20 
-ns1 A 10.2.2.1 TTL 
-ns2 A 10.2.2.2 TTL 
-ns3 A 10.2.2.3 TTL 
-sp.smaller A 10.3.3.1 TTL 
-mx1 A 10.3.3.2 TTL 
-mx2 A 10.3.3.3 TTL 
-www A 10.4.4.10 TTL 200 
-ftp A 10.4.4.11 TTL 
+ns1 A 10.0.0.1 TTL 
+ns2 A 10.0.0.2 TTL 
+ns3 A 10.0.0.3 TTL 
+sp.smaller A 10.0.0.4 TTL 
+mx1 A 10.0.0.5 TTL 
+mx2 A 10.0.0.6 TTL 
 sp CNAME ns1 TTL 
 ss1 CNAME ns2 TTL 
 ss2 CNAME ns3 TTL 

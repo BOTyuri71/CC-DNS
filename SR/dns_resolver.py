@@ -36,14 +36,19 @@ class Resolve_server:
 
 #############################################################################################
 
-# Data info
+# Cache info
 
-        self.db_read = []
-        self.db_parsed = []
+        self.cache_domain = {}
+        self.cache_all = {}
 
-        self.default = ''
-        self.db_domain = {}
-        self.db_all = {}
+
+#############################################################################################
+
+# Pdu received info
+
+        self.pdu_temp_received = []
+        self.pdu_received = []
+
 
 ##############################################################################################
 
@@ -56,14 +61,20 @@ class Resolve_server:
         for line in config:
             self.root_read.append(line.replace('\n', ''))
 
+        print(self.root_read)
+
         for line in self.root_read:
             if (line.startswith('#')):
                 self.root_read.remove(line)
             if (line.startswith(' ')):
                 self.root_read.remove(line)
 
+        print(self.root_read)
+
         while ("" in self.root_read):
             self.root_read.remove("")
+
+        print(self.root_read)
 
         for line in self.root_read:
             temp = line.split(' ')
@@ -74,7 +85,7 @@ class Resolve_server:
                 if i == 'ST':
                     temp.remove(i)
 
-        self.root_parsed.append(temp)
+            self.root_parsed.append(temp)
 
         for list in self.root_parsed:
 
@@ -85,7 +96,6 @@ class Resolve_server:
 
 ################################################################################################
 # Config parser
-
 
     def config_parser(self):
 
@@ -138,7 +148,7 @@ class Resolve_server:
                 self.root_path = list[2]
 
         f = open(self.all_log_path, "a")
-        f.write(now + ' SS ' + self.ip + ' ' + str(self.port) +
+        f.write(now + ' SR ' + self.ip + ' ' + str(self.port) +
                 ' ' + str(self.ttl) + ' ' + self.mode + ' \n')
         f.write(now + ' EV @ conf-file-read ' + self.config_path + '\n')
         f.write(now + ' EV @ log-file-create ' + self.all_log_path + '\n')
@@ -152,9 +162,24 @@ class Resolve_server:
 
         print(self.root_path)
         print(self.all_log_path)
-        print(self.dns_all)            
+        print(self.dns_all)
+        print(self.root_all)
 
-rs = Resolve_server('10.0.0.2', 86, 100, 'debug',
-                    r'/home/core/dns_tp2/dns/.ptgg/config/SR.config')
+################################################################################################
+# Query resolver
 
-rs.config_parser()
+    def query_resolver_top(self, msg, query, socket):
+        if len(query) > 1:
+            if query[1][0] in self.cache_all:
+                query_response = self.cache_all.get(query[1][0])
+            else:
+                for key in self.root_all:
+                    try:
+                        msgFromClient = re.sub("b", "", msg)
+                        msgFromClient = re.sub("'", "", msgFromClient)
+
+                        serverAddressPort = (key, self.root_all[key])
+                        bytesToSend = str.encode(msgFromClient)
+                        socket.sendto(bytesToSend, serverAddressPort)
+                    except:
+                        pass

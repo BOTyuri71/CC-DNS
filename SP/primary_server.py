@@ -42,8 +42,34 @@ class Primary_server:
         self.db_parsed = []
 
         self.default = ''
-        self.db_domain = {}
+        self.db_ns = {}
+        self.db_mx = {}
+        self.db_www = {}
+        self.db_ftp = {}
         self.db_all = {}
+        self.db_domain = {}
+
+#############################################################################################
+
+# Pdu received info
+
+        self.pdu_temp_received = []
+        self.pdu_received = []
+
+#############################################################################################
+
+# Pdu to send info
+
+        self.pdu_temp_send = []
+        self.pdu_send = []
+
+##############################################################################################
+
+# Zone transfer
+
+        self.entries = 0
+        self.db_zones = {}
+        self.db_zone = []
 
 ##############################################################################################
 
@@ -74,7 +100,7 @@ class Primary_server:
                 if i == 'ST':
                     temp.remove(i)
 
-        self.root_parsed.append(temp)
+            self.root_parsed.append(temp)
 
         for list in self.root_parsed:
 
@@ -147,20 +173,57 @@ class Primary_server:
                 self.db_domain[list[1]].update({list[2]: 0})
             if list[1] == 'A' and 4 < len(list):
                 if list[0] not in self.db_domain:
-                    self.db_domain.update({list[0]: {}})
-                self.db_domain[list[0]].update({list[2]: int(list[4])})
+                    if 'NS' in self.db_domain:
+                        for value in self.db_domain['NS']:
+                            if list[0] in value:
+                                self.db_domain['NS'].update(
+                                    {value + list[1] + list[2]: int(list[4])})
+                    if 'MX' in self.db_domain:
+                        for value in self.db_domain['MX']:
+                            if list[0] in value:
+                                self.db_mx.update(
+                                    {value + ' ' + list[1] + ' ' + list[2]: 0})
+                    if list[0] == 'www':
+                        self.db_www.update(
+                            {list[0] + ' ' + list[1] + ' ' + list[2]: int(list[4])})
+                    if list[0] == 'ftp':
+                        self.db_ftp.update(
+                            {list[0] + ' ' + list[1] + ' ' + list[2]: int(list[4])})
             elif list[1] == 'A':
                 if list[0] not in self.db_domain:
-                    self.db_domain.update({list[0]: {}})
-                self.db_domain[list[0]].update({list[2]: 0})
+                    if 'NS' in self.db_domain:
+                        for value in self.db_domain['NS']:
+                            if list[0] in value:
+                                self.db_ns.update(
+                                    {value + ' ' + list[1] + ' ' + list[2]: 0})
+                    if 'MX' in self.db_domain:
+                        for value in self.db_domain['MX']:
+                            if list[0] in value:
+                                self.db_mx.update(
+                                    {value + ' ' + list[1] + ' ' + list[2]: 0})
+                    if list[0] == 'www':
+                        self.db_www.update(
+                            {list[0] + ' ' + list[1] + ' ' + list[2]: 0})
+                    if list[0] == 'ftp':
+                        self.db_ftp.update(
+                            {list[0] + ' ' + list[1] + ' ' + list[2]: 0})
             if list[1] == 'CNAME':
                 if list[1] not in self.db_domain:
                     self.db_domain.update({list[1]: {}})
                 self.db_domain[list[1]].update({list[0]: list[2]})
 
+        self.db_zones.update({self.default: self.db_read})
+        if self.db_ns != {}:
+            self.db_domain['NS'] = self.db_ns
+        if self.db_mx != {}:
+            self.db_domain['MX'] = self.db_mx
+        if self.db_www != {}:
+            self.db_domain.update({'www': self.db_www})
+        if self.db_ftp != {}:
+            self.db_domain.update({'ftp': self.db_ftp})
         self.db_all.update({self.default: self.db_domain})
 
-        print(self.db_all)
+        # print(self.db_all)
 
         f = open(self.all_log_path, "a")
         f.write(now + ' EV @ db-file-read ' + path + '\n')
@@ -169,7 +232,6 @@ class Primary_server:
 
 ################################################################################################
 # Config parser
-
 
     def config_parser(self):
 
@@ -234,12 +296,59 @@ class Primary_server:
                 if key == 'DB':
                     self.db_parser(val)
 
-        print(self.root_path)
-        print(self.all_log_path)
-        print(self.dns_all)
 
+################################################################################################
+# Pdu to send
 
-sp = Primary_server('10.0.0.2', 86, 100, 'debug',
-                    r'/home/core/DNS/dns/.ptgg/config/SP.config')
+    def pdu_build(self):
+        self.pdu_send = self.pdu_received
 
-sp.config_parser()
+        print(self.pdu_received[1][0])
+        print(self.db_all.keys())
+
+        if (self.pdu_received[1][0] in self.db_all.keys()):
+            print('blaa')
+
+################################################################################################
+# Zone transfer
+
+    def zone_transfer(self, domain):
+
+        if domain in self.db_zones:
+            self.db_zone = self.db_zones.get(domain)
+
+            self.db_zone[0] = self.db_zone[0].replace('@', '')
+            self.db_zone[0] = self.db_zone[0].replace('DEFAULT', '')
+            self.db_zone[0] = self.db_zone[0].replace(' ', '')
+
+            self.db_zone[1] = self.db_zone[1].replace('TTL', '')
+            self.db_zone[1] = self.db_zone[1].replace('DEFAULT', '')
+            self.db_zone[1] = self.db_zone[1].replace(' ', '')
+
+            dns_temp = self.db_zone[0] + ' '
+            dns_temp2 = self.db_zone[1]
+
+            self.db_zone = [sub.replace('@ ', dns_temp)
+                            for sub in self.db_zone]
+            self.db_zone = [sub.replace('TTL', dns_temp2)
+                            for sub in self.db_zone]
+
+            del self.db_zone[0]
+            del self.db_zone[0]
+
+            for value in self.db_zone:
+                self.entries = self.entries+1
+
+        else:
+            print("Este servidor primário não tem informação sobre o domínio pedido!")
+
+################################################################################################
+# Pdu response
+
+    def query_response(self, domain, serverAddressPort, socket):
+        for key in self.db_all:
+            if key in domain:
+                self.pdu_send = str(key) + ':' + str(self.db_all[key])
+
+                bytesToSend = str.encode(self.pdu_send)
+                socket.sendto(bytesToSend, serverAddressPort)

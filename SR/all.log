@@ -1,3 +1,198 @@
 2022-12-01 22:36:38.546268 SS 10.0.0.2 86 100 debug 
 2022-12-01 22:36:38.546268 EV @ conf-file-read /home/core/dns_tp2/dns/.ptgg/config/SR.config
 2022-12-01 22:36:38.546268 EV @ log-file-create /home/core/dns_tp2/dns/SR/all.log
+2023-01-19 16:10:07.712463 SR 127.0.0.1 1035 100 debug 
+2023-01-19 16:10:07.712463 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 16:10:07.712463 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 16:10:27.789839 SR 127.0.0.1 1035 100 debug 
+2023-01-19 16:10:27.789839 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 16:10:27.789839 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 16:13:50.514374 SR 127.0.0.1 1035 100 debug 
+2023-01-19 16:13:50.514374 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 16:13:50.514374 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 16:16:34.499270 SR 127.0.0.1 1035 100 debug 
+2023-01-19 16:16:34.499270 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 16:16:34.499270 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 16:19:57.652575 SR 127.0.0.1 1035 100 debug 
+2023-01-19 16:19:57.652575 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 16:19:57.652575 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 16:21:08.061050 SR 127.0.0.1 1035 100 debug 
+2023-01-19 16:21:08.061050 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 16:21:08.061050 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 17:27:38.301283 SR 127.0.0.1 1035 100 debug 
+2023-01-19 17:27:38.301283 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 17:27:38.301283 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 17:28:23.108763 SR 127.0.0.1 1035 100 debug 
+2023-01-19 17:28:23.108763 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 17:28:23.108763 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 17:30:06.262401 SR 127.0.0.1 1035 100 debug 
+2023-01-19 17:30:06.262401 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 17:30:06.262401 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 17:31:16.930191 SR 127.0.0.1 1035 100 debug 
+2023-01-19 17:31:16.930191 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 17:31:16.930191 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 17:32:03.126725 SR 127.0.0.1 1035 100 debug 
+2023-01-19 17:32:03.126725 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 17:32:03.126725 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 17:52:58.020096 SR 127.0.0.1 1035 100 debug 
+2023-01-19 17:52:58.020096 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 17:52:58.020096 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 17:56:00.054046 SR 127.0.0.1 1035 100 debug 
+2023-01-19 17:56:00.054046 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 17:56:00.054046 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:07:28.713898 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:07:28.713898 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:07:28.713898 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:09:00.738439 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:09:00.738439 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:09:00.738439 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:12:10.352541 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:12:10.352541 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:12:10.352541 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:15:36.537583 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:15:36.537583 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:15:36.537583 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:17:42.919217 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:17:42.919217 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:17:42.919217 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:18:49.505354 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:18:49.505354 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:18:49.505354 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:19:45.114825 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:19:45.114825 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:19:45.114825 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:20:36.629727 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:20:36.629727 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:20:36.629727 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:21:58.171706 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:21:58.171706 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:21:58.171706 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:23:30.749284 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:23:30.749284 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:23:30.749284 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:24:41.779681 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:24:41.779681 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:24:41.779681 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:25:32.981520 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:25:32.981520 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:25:32.981520 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:27:46.034841 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:27:46.034841 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:27:46.034841 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:28:34.732220 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:28:34.732220 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:28:34.732220 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:29:08.177619 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:29:08.177619 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:29:08.177619 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:31:42.156393 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:31:42.156393 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:31:42.156393 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:33:59.523689 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:33:59.523689 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:33:59.523689 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:34:51.778543 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:34:51.778543 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:34:51.778543 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:35:14.550049 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:35:14.550049 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:35:14.550049 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:36:07.241820 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:36:07.241820 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:36:07.241820 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 18:36:22.649789 SR 127.0.0.1 1035 100 debug 
+2023-01-19 18:36:22.649789 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 18:36:22.649789 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 21:47:00.303421 SR 127.0.0.1 1035 100 debug 
+2023-01-19 21:47:00.303421 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 21:47:00.303421 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 21:52:21.296921 SR 127.0.0.1 1035 100 debug 
+2023-01-19 21:52:21.296921 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 21:52:21.296921 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 21:53:51.842914 SR 127.0.0.1 1035 100 debug 
+2023-01-19 21:53:51.842914 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 21:53:51.842914 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 21:54:51.927392 SR 127.0.0.1 1035 100 debug 
+2023-01-19 21:54:51.927392 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 21:54:51.927392 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 21:59:29.102102 SR 127.0.0.1 1035 100 debug 
+2023-01-19 21:59:29.102102 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 21:59:29.102102 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:14:02.912334 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:14:02.912334 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:14:02.912334 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:16:40.530683 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:16:40.530683 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:16:40.530683 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:26:50.377283 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:26:50.377283 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:26:50.377283 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:27:00.863176 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:27:00.863176 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:27:00.863176 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:27:24.599230 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:27:24.599230 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:27:24.599230 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:29:48.044753 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:29:48.044753 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:29:48.044753 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:30:36.625150 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:30:36.625150 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:30:36.625150 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:34:47.244013 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:34:47.244013 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:34:47.244013 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:35:11.055421 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:35:11.055421 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:35:11.055421 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:35:37.764800 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:35:37.764800 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:35:37.764800 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:37:36.120566 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:37:36.120566 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:37:36.120566 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:44:09.361146 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:44:09.361146 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:44:09.361146 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:44:49.202106 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:44:49.202106 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:44:49.202106 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:49:06.893222 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:49:06.893222 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:49:06.893222 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:50:22.210496 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:50:22.210496 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:50:22.210496 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:53:39.967851 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:53:39.967851 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:53:39.967851 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:54:56.347828 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:54:56.347828 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:54:56.347828 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:56:39.268370 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:56:39.268370 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:56:39.268370 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:57:30.840429 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:57:30.840429 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:57:30.840429 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:58:28.704149 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:58:28.704149 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:58:28.704149 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 22:59:53.381301 SR 127.0.0.1 1035 100 debug 
+2023-01-19 22:59:53.381301 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 22:59:53.381301 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 23:06:58.015562 SR 127.0.0.1 1035 100 debug 
+2023-01-19 23:06:58.015562 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 23:06:58.015562 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 23:07:51.428429 SR 127.0.0.1 1035 100 debug 
+2023-01-19 23:07:51.428429 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 23:07:51.428429 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 23:08:20.728731 SR 127.0.0.1 1035 100 debug 
+2023-01-19 23:08:20.728731 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 23:08:20.728731 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 23:09:10.743339 SR 127.0.0.1 1035 100 debug 
+2023-01-19 23:09:10.743339 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 23:09:10.743339 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
+2023-01-19 23:11:43.374480 SR 127.0.0.1 1035 100 debug 
+2023-01-19 23:11:43.374480 EV @ conf-file-read C:\Users\guiar\Documents\DNS\dns\.ptgg\config\SR.config
+2023-01-19 23:11:43.374480 EV @ log-file-create C:\Users\guiar\Documents\DNS\dns\SR\all.log
